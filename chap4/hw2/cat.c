@@ -32,15 +32,14 @@ int main(int argc, char *argv[]) {
     }
 
     if (argc < 2) {
-        fprintf(stderr, "Usage: %s [-n] <file1> [<file2> ...]\n", argv[0]);
+        fprintf(stderr, "test\ntest\n", argv[0]);
+
         return 1;
     }
-
+ 
     for (int i = 1; i < argc; i++) {
-        printf("\n==> %s <==\n", argv[i]);
-        print_file(argv[i], line_numbering);
+         print_file(argv[i], line_numbering);
     }
 
-    return 0;
+         return 0;
 }
-
