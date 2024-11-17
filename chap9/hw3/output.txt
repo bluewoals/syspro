@@ -1,0 +1,5 @@
+total 24
+-rw-r--r-- 1 dcuuser dcuuser     0 Nov 17 11:23 output.txt
+-rwxr-xr-x 1 dcuuser dcuuser 17392 Nov 17 11:19 shellin
+-rw-r--r-- 1 dcuuser dcuuser  2106 Nov 17 11:18 shellin.c
+[shell] [shell] [shell] [shell] 
